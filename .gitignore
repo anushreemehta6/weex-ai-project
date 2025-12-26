@@ -1,0 +1,47 @@
+# ---------------- Python ----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---------------- Virtual Environment ----------------
+venv/
+.env/
+.env.local
+
+# ---------------- OS Files ----------------
+.DS_Store
+Thumbs.db
+
+# ---------------- Streamlit ----------------
+.streamlit/
+*.log
+
+# ---------------- IDE / Editor ----------------
+.vscode/
+.idea/
+
+# ---------------- API & Secrets ----------------
+bot/config.py
+*.pem
+*.key
+secrets.json
+
+# ---------------- Data / Cache ----------------
+*.csv
+*.db
+*.sqlite
+*.parquet
+.cache/
+
+# ---------------- Build / Distribution ----------------
+build/
+dist/
+*.egg-info/
+
+# ---------------- Notebooks ----------------
+.ipynb_checkpoints/
+
+# ---------------- Misc ----------------
+*.tmp
+*.bak
